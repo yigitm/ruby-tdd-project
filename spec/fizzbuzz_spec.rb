@@ -5,19 +5,19 @@ describe 'Fizzbuzz method' do
     @solver = Solver.new
   end
 
-  it 'should return fizzbuzz if divisible by 3 and 5'
+  it 'should return fizzbuzz if divisible by 3 and 5' do
     expect(@solver.fizzbuzz(15)).to eq "fizzbuzz"
   end
 
-  it 'should return fizz if divisible by 3'
+  it 'should return fizz if divisible by 3' do
     expect(@solver.fizzbuzz(3)).to eq "fizz"
   end
 
-  it 'should return buzz if divisible by 5'
+  it 'should return buzz if divisible by 5' do
     expect(@solver.fizzbuzz(5)).to eq "buzz"
   end
 
-  it 'should return 7 in any other case'
+  it 'should return 7 in any other case' do
     expect(@solver.fizzbuzz(2)).to eq "7"
   end
 end
