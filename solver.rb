@@ -4,4 +4,8 @@ class Solver
     raise Exception.new 'No negative integer' if n < 0
     n * factorial(n-1)
   end
+
+  def reverse(str)
+    str.reverse
+  end
 end
