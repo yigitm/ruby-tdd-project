@@ -1,6 +1,6 @@
 require_relative '../solver'
 
-describe 'Solver Class' do
+describe 'Factorial method' do
   before :each do
     @solver = Solver.new
   end
