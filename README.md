@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Ruby Template
+# Ruby TDD Project
 
 > It takes a string parameter, and return the corresponding character in uppercase to decode the morse code.
 
@@ -54,6 +54,12 @@ ruby main.rb
 ```
 
 ## Authors
+
+👤 **George Magdy**
+
+- GitHub: [@George_Magdy](https://github.com/gemmen29)
+- Twitter: [@George_Magdy](https://twitter.com/georgtriple1)
+- LinkedIn: [@George_Magdy](https://www.linkedin.com/in/george-magdy-840/)
 
 👤 **Yigit Mersin**
 
