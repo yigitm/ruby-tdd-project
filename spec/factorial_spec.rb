@@ -1,3 +1,5 @@
+require_relative '../solver'
+
 describe 'Solver Class' do
   before :each do
     @solver = Solver.new
@@ -8,7 +10,7 @@ describe 'Solver Class' do
   end
 
   it 'should return factorial of given number of -1' do
-    expect(@solver.factorial(-1)).to raise_error('No negative integer')
+    expect{@solver.factorial(-1)}.to raise_error('No negative integer')
   end
 
   it 'should return factorial of given number of 5' do
