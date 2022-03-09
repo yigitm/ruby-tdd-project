@@ -10,7 +10,7 @@ describe 'Factorial method' do
   end
 
   it 'should return factorial of given number of -1' do
-    expect{@solver.factorial(-1)}.to raise_error('No negative integer')
+    expect { @solver.factorial(-1) }.to raise_error('No negative integer')
   end
 
   it 'should return factorial of given number of 5' do

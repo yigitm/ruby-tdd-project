@@ -1,18 +1,20 @@
 class Solver
-  def factorial(n)
-    return 1 if n == 0
-    raise Exception.new 'No negative integer' if n < 0
-    n * factorial(n-1)
+  def factorial(number)
+    return 1 if number.zero?
+    raise Exception, 'No negative integer' if number.negative?
+
+    number * factorial(number - 1)
   end
 
   def reverse(str)
     str.reverse
   end
 
-  def fizzbuzz(n)
-    return "fizzbuzz" if n % 15 == 0
-    return "fizz" if n % 3 == 0
-    return "buzz" if n % 5 == 0
-    "7"
+  def fizzbuzz(number)
+    return 'fizzbuzz' if (number % 15).zero?
+    return 'fizz' if (number % 3).zero?
+    return 'buzz' if (number % 5).zero?
+
+    '7'
   end
 end
