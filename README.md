@@ -2,14 +2,13 @@
 
 # Ruby TDD Project
 
-> It takes a string parameter, and return the corresponding character in uppercase to decode the morse code.
-
-![](app_screenshot.png)
+> Test-driven development (TDD) is practised to create solver class with factorial/fizzbuzz/reverse methods.
 
 ## Built With
 
 - Ruby
 - Rubocop
+- Rspec
 
 ## Getting Started
 
@@ -36,7 +35,7 @@ cd your_desktop
 Run below commands.
 
 ```
-git clone git@github.com:yigitm/morse-code-decoder.git
+git clone git@github.com:yigitm/ruby-tdd-project.git
 ```
 
 ### Usage
@@ -44,13 +43,25 @@ git clone git@github.com:yigitm/morse-code-decoder.git
 Go to the app folder.
 
 ```
-cd morse-code-decoder
+cd ruby-tdd-project
 ```
 
-Run the app with below command.
+Use below command to install gems(packages) that used
 
 ```
-ruby main.rb
+bundle install
+```
+
+To run all unit tests
+
+```
+rspec spec
+```
+
+To run a specific test
+
+```
+rspec spec/[filename].[extension]
 ```
 
 ## Authors
@@ -79,9 +90,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
+- Ruby
+- Open source
 
 ## 📝 License
 
