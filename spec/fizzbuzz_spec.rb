@@ -18,6 +18,6 @@ describe 'Fizzbuzz method' do
   end
 
   it 'should return 7 in any other case' do
-    expect(@solver.fizzbuzz(2)).to eq '7'
+    expect(@solver.fizzbuzz(2)).to eq 2
   end
 end

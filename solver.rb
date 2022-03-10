@@ -15,6 +15,6 @@ class Solver
     return 'fizz' if (number % 3).zero?
     return 'buzz' if (number % 5).zero?
 
-    '7'
+    number
   end
 end
